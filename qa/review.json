@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "visualQa": "pass",
+  "qaNote": "All rows preserve the same Smelly Cat Gao identity and clean motion semantics; previews are unclipped and artifact-free; blind direction validation passes.",
+  "repairRows": [],
+  "warnings": [
+    "The 045 alpha diagnostic at y=12 is intentional negative space between upper fur contours, not a body seam.",
+    "The 067.5 vertical, 157.5 horizontal, and 292.5 vertical cues were blind-ambiguous but remain visibly inside their labeled quadrants in the ordered loop.",
+    "The repaired 157.5-to-180 transition retains a compact-to-down posture change without a conspicuous scale pop or registration jump.",
+    "The 247.5-to-270 diff outlier remains a smooth stable turn.",
+    "The 337.5-to-000 profile-to-frontal chest expansion is visible in metrics but does not pop at normal pet size."
+  ],
+  "cardinals": {
+    "000": "pass: unmistakably up",
+    "090": "pass: unmistakably screen-right",
+    "180": "pass: unmistakably down",
+    "270": "pass: unmistakably screen-left"
+  },
+  "blindDirectionValidation": "pass",
+  "v2Validation": "pass"
+}

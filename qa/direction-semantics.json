@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "reviewedAtNormalPetSize": true,
+  "directions": [
+    {"direction":"000","expected":"up","verdict":"pass","observed":"frontal head pitched up; nose, chin, irises, and pupils point toward the top edge","reason":"Unmistakable vertical-up cardinal with no horizontal reversal."},
+    {"direction":"022.5","expected":"up-right","verdict":"pass","observed":"head remains lifted while nose and pupils begin moving screen-right","reason":"Horizontal right and vertical up landmarks are both visible."},
+    {"direction":"045","expected":"up-right","verdict":"pass","observed":"lifted muzzle with a clearer screen-right face turn","reason":"Both required axes read clearly; the alpha diagnostic at y=12 is the intentional gap between upper fur contours, not a body hole."},
+    {"direction":"067.5","expected":"up-right","verdict":"warning","observed":"near-right profile with nose and eyes slightly above neutral","reason":"Rightward axis is clear; blind reviewers found the subtle near-horizontal upward component ambiguous, while labeled loop review confirms the up-right quadrant."},
+    {"direction":"090","expected":"right","verdict":"pass","observed":"nose, muzzle center, pupils, and face surface point screen-right","reason":"Unmistakable screen-right cardinal."},
+    {"direction":"112.5","expected":"down-right","verdict":"pass","observed":"screen-right head turn with lowered pupils and tucked chin","reason":"Horizontal right and vertical down landmarks are both visible."},
+    {"direction":"135","expected":"down-right","verdict":"pass","observed":"muzzle remains right of head center while the head pitches farther down","reason":"Correct down-right quadrant and smooth progression."},
+    {"direction":"157.5","expected":"down-right","verdict":"warning","observed":"strong downward pitch with a subtle remaining screen-right nose and eye cue","reason":"Direction is correct; compact crouch creates a reviewed area-change warning at the transition to 180."},
+    {"direction":"180","expected":"down","verdict":"warning","observed":"frontal head and eyes point directly down with no horizontal bias","reason":"Unmistakable down cardinal; the repaired row reduces the 157.5-to-180 area ratio to 1.13 and the remaining posture expansion is acceptable at normal size."},
+    {"direction":"202.5","expected":"down-left","verdict":"pass","observed":"head remains lowered while nose and pupils begin moving screen-left","reason":"Horizontal left and vertical down landmarks are both visible."},
+    {"direction":"225","expected":"down-left","verdict":"pass","observed":"clear screen-left face turn with lowered gaze","reason":"Both axes read clearly and maintain clockwise order."},
+    {"direction":"247.5","expected":"down-left","verdict":"pass","observed":"near-left profile with chin and pupils still below neutral","reason":"Leftward axis dominates while the downward cue remains visible."},
+    {"direction":"270","expected":"left","verdict":"pass","observed":"nose, muzzle center, pupils, and face surface point screen-left","reason":"Unmistakable screen-left cardinal."},
+    {"direction":"292.5","expected":"up-left","verdict":"warning","observed":"screen-left head turn with nose and gaze beginning to lift","reason":"Leftward axis is clear; blind reviewers found the early upward component ambiguous, while labeled loop review confirms the up-left quadrant."},
+    {"direction":"315","expected":"up-left","verdict":"pass","observed":"lifted muzzle and pupils remain visibly screen-left","reason":"Both axes read clearly and the arc continues smoothly."},
+    {"direction":"337.5","expected":"up-left","verdict":"pass","observed":"nearly upward frontal pitch with a subtle remaining screen-left cue","reason":"Correct final quadrant and an even visual lead-in to 000."}
+  ],
+  "continuityResolution": {
+    "decision": "accept",
+    "reason": "Metric warnings were reviewed on the labeled normal-size loop. The repaired 157.5-to-180 transition no longer shows a conspicuous scale pop; lower paws and baseline remain planted, identity is stable, and no direction reverses."
+  }
+}
